@@ -1,0 +1,66 @@
+body {
+    font-family: 'Sintony', sans-serif;
+    background-color: #0e94c7;
+    padding-top: 1%;
+}
+
+header, #gif-buttons {
+    margin-bottom: 1%;
+}
+
+h1 {
+    font-size: 3em;
+    color: #a4ce52;
+    font-weight: 700;
+    text-shadow: 2px 2px #de0f77;
+}
+
+#add-gif {
+    background-color: #eba23c;
+    cursor: pointer;
+}
+
+.cartoon {
+    cursor: pointer;
+}
+
+.gif {
+    cursor: pointer;
+}
+
+p {
+    text-transform: uppercase;
+    padding-left: 1%;
+}
+
+.cartoon {
+    margin-right: 1%;
+    margin-bottom: 1%;
+    background-color: #483586;
+}
+.gifDiv {
+    margin-right: 1%;
+}
+
+.rating{
+    background-color: #de0f77;
+    color: white;
+}
+
+
+/*
+These rules take effect when the browser's width
+is either 768px or less.
+*/
+
+@media screen and (max-width: 768px) {
+
+.gif {
+    width: 100%;
+}
+
+#add-gif {
+    margin-left: 15px;
+}
+
+}
