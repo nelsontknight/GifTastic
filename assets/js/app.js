@@ -19,7 +19,7 @@ function displayCartoonGif() {
             console.log("In Here");
             var gifImage = $("<img>");
             gifImage.attr("class", "img-fluid gif");
-            // Still must load first per HW instructions.
+            
             gifImage.attr("src", results[i].images.fixed_height_still.url);
             gifImage.attr("data-still", results[i].images.fixed_height_still.url);
             gifImage.attr("data-animate", results[i].images.fixed_height.url);
